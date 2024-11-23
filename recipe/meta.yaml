@@ -1,13 +1,13 @@
 {% set name = "elphmod" %}
-{% set version = "0.28" %}
+{% set version = "0.29" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8200741b67cc4b9f3b4625c3ed2b7a5eb9e7e778f8baa747e495f10a73622da5
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 4044214838ab8d6918302dea574a04d55f15f0b95fe68e385319d36dc6cdc496
 
 build:
   entry_points:
